@@ -7,7 +7,7 @@ function AboutMe() {
     <section id = "about_me_section" className = " container section_one_about_me">
     <div>
       <h1 id = "about_me_header">About Me</h1>
-      <div class="divider"></div>
+      <div className="divider"></div>
     </div>
     <div >
       <p id = "about_me_first_summery"> Hello, I'm Derek Hernandez an aspiring Engineer/Developer. 

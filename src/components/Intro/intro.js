@@ -18,7 +18,7 @@ function Intro() {
       </p>
     </div>
     <div id = "'contact_button'">
-      <a class="light-green-text btn"  href="mailto:hernandez.derek19@outlook.com">Contact</a>
+      <a className="light-green-text btn"  href="mailto:hernandez.derek19@outlook.com" rel="noopener noreferrer">Contact</a>
     </div>
 </section>
   

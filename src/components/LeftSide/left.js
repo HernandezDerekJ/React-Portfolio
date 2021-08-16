@@ -12,14 +12,13 @@ function leftside_bar(props) {
     <aside orientation = "left" className = "sidebar_links">
       <ul>
         <li>
-
-          <a href="https://www.linkedin.com/in/derekhernandez19/" target="_blank" className="tooltipped" data-position="top" data-tooltip="LinkedIn "><FaLinkedin /></a>
+          <a href="https://www.linkedin.com/in/derekhernandez19/" target="_blank" className="tooltipped" data-position="top" data-tooltip="LinkedIn " rel="noopener noreferrer"><FaLinkedin /></a>
         </li>
         <li>
-          <a href="https://github.com/HernandezDerekJ" target="_blank" className="tooltipped" data-position="top" data-tooltip="GitHub "><FaGithub /></a>
+          <a href="https://github.com/HernandezDerekJ" target="_blank" className="tooltipped" data-position="top" data-tooltip="GitHub " rel="noopener noreferrer"><FaGithub /></a>
         </li>
         <li>
-          <a href="assests/Derek_James_Hernandez.pdf" target="_blank" className="tooltipped" data-position="top" data-tooltip="Resume "> <FaFileAlt /></a>
+          <a href="files/Derek_James_Hernandez_Resume.pdf" target="_blank" className="tooltipped" data-position="top" data-tooltip="Resume " rel="noopener noreferrer"> <FaFileAlt /></a>
         </li>
       </ul>
     </aside>

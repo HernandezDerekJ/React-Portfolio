@@ -4,8 +4,7 @@ import "./spacer.css";
 
 function space() {
   return (
-    <div class="spacer">
-    </div>
+    <div className="spacer"></div>
   );
 
 }

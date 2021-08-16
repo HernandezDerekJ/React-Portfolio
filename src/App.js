@@ -25,7 +25,7 @@ function App() {
     {!done ? (
         <Load />
     ) : (
-        <Fade top>      
+        <Fade bottom>      
           <Right_bar/>
           <Left_bar/>
           <Header/>

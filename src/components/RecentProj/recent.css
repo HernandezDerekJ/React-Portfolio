@@ -36,7 +36,16 @@
   .recent_projects{
     color: var(--lightergreen);
   }
-
+  .div-tag{
+    display: inline-flex;
+    color: turquoise;
+  }
+  .div-tag:hover{
+    opacity: .8;
+    background-color: rgba(255, 255, 255, 0.377);
+    color: var(--lightergreen);
+    cursor: pointer;
+  }
   /* Portrait */
   @media screen and (max-width: 375px) {
     .car .car-time{

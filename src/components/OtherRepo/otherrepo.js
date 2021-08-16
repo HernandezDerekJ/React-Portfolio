@@ -55,7 +55,7 @@ function MyComponent() {
                   )}
               </div>
                   <div className="card-action otherCard-action gitLogo grey darken-3">
-                      <a className="" target="_blank" href={x.html_url}>Git: <FaGithub/></a>
+                      <a className="light-green-text other-git" target="_blank" href={x.html_url} rel="noopener noreferrer">github</a>
                   </div>
             </div>
           </div>

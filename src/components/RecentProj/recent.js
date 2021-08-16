@@ -18,14 +18,14 @@ function Recent() {
       <div className="divider"></div>
     </div>
     <div className="carousel car center-align">
-      <a className="carousel-item car-time">
+      <a className="carousel-item car-time" >
         <div className="card cardCustom">
           <div className="card-image waves-effect waves-green waves-light">
             <img className="activator img-card" src="./img/Win95.png" alt="logo"/>
           </div>
           <div className="card-content">
             <span className="card-title activator name-title">Windows 95</span>
-            <p><a href="https://github.com/HernandezDerekJ/Windows-95"><FaGithub /></a></p>
+            <div className = 'div-tag' onClick={()=> window.open("https://github.com/HernandezDerekJ/Windows-95", "_blank")}>GitHub</div>
           </div>
           <div className="card-reveal grey darken-1">
             <span className="card-title grey darken-1 waves-effect waves-red waves-light">Windows 95</span>
@@ -55,7 +55,7 @@ function Recent() {
           </div>
           <div className="card-content">
             <span className="card-title activator name-title ">This Day in Space</span>
-            <p><a href="https://github.com/HernandezDerekJ/This-Day-In-Space"><FaGithub /></a></p>
+            <div className = 'div-tag' onClick={()=> window.open("https://github.com/HernandezDerekJ/This-Day-In-Space", "_blank")}>GitHub</div>
           </div>
           <div className="card-reveal grey darken-1">
             <span className="card-title grey darken-1 waves-effect waves-red waves-light"> This Day in Space</span>
@@ -74,14 +74,14 @@ function Recent() {
           </div>
         </div>
       </a>
-      <a className="carousel-item car-time" href="#three!">
+      <a className="carousel-item car-time">
       <div className="card cardCustom">
         <div className="card-image waves-effect waves-green waves-light">
               <img className="activator img-card" src="./img/portPic.png" alt="logo"/>
             </div>
             <div className="card-content">
               <span className="card-title activator name-title">Portfolio React</span>
-              <p><a href="https://github.com/HernandezDerekJ/"><FaGithub /></a></p>
+              <div className = 'div-tag' onClick={()=> window.open("https://github.com/HernandezDerekJ/React-Portfolio", "_blank")}>GitHub</div>
             </div>
             <div className="card-reveal grey darken-1">
               <span className="card-title grey darken-1 waves-effect waves-red waves-light">Portfolio React</span>
