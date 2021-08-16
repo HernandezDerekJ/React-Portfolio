@@ -36,3 +36,6 @@
     font-family: Arial;
     margin: 0;
   }
+  .react-reveal{
+    animation-fill-mode: backwards !important;
+    }

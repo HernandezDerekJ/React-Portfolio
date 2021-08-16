@@ -20,9 +20,9 @@ function Recent() {
       <h1 className = "about_me_header">Recent Projects</h1>
       <div className="divider"></div>
     </div>
-    <div className="carousel center-align">
-      <a className="carousel-item ">
-        <div className="card ">
+    <div className="carousel car center-align">
+      <a className="carousel-item car-time">
+        <div className="card cardCustom">
           <div className="card-image waves-effect waves-green waves-light">
             <img className="activator" src="./img/Win95.png" alt="logo"/>
           </div>
@@ -51,8 +51,8 @@ function Recent() {
           </div>
         </div>
       </a>
-      <a className="carousel-item" >
-      <div className="card ">
+      <a className="carousel-item car-time" >
+      <div className="card cardCustom ">
           <div className="card-image waves-effect waves-green waves-light">
             <img className="activator" src="./img/screenshotProject1.png" alt="logo"/>
           </div>
@@ -77,8 +77,8 @@ function Recent() {
           </div>
         </div>
       </a>
-      <a className="carousel-item" href="#three!">
-      <div className="card ">
+      <a className="carousel-item car-time" href="#three!">
+      <div className="card cardCustom">
         <div className="card-image waves-effect waves-green waves-light">
               <img className="activator" src="./img/portPic.png" alt="logo"/>
             </div>

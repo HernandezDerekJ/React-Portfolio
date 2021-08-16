@@ -35,7 +35,8 @@
   padding-top: 0px;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  z-index: 100;
+  
+  z-index: 10;
   
 }
 .right_sidebar aside div{

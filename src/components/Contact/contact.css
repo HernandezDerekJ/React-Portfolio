@@ -34,24 +34,27 @@
    }
    .section_four_contact_me h2{
      word-wrap: normal;
-     padding: 10px;
+     padding: 5px;
      font-size: var(--small_vw);
      color: var(--darkgreen);
    }
    .section_four_contact_me p{
-     padding: 10px;
+     padding: 5px;
      font-size: var(--small_vw);
      color: var(--light);
      word-wrap: normal;
    }
    .section_four_contact_me a{
-     text-decoration: none;
-     padding: 20px;
-     margin-top:30px;
-     margin-left:20px;
-     color:var(--light);
+    background-color:#6b6e70;
+     margin-top:2%;
+     margin-left: 2%;
+     color:var(--lightergreen);
      outline: 1px solid var(--lightergreen);
    }
+   .section_four_contact_me a:hover{
+    opacity: .7;
+    background-color: #fff;
+  }
   @media screen and (min-width: 768) {
     
   }

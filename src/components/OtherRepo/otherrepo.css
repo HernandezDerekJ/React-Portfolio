@@ -26,12 +26,21 @@
    --line_length: clamp(4vw,50vw,70vw);
     /*--------------VW Sizes---------------------*/
   }
-.otherRepos {
-  background-color: #86c232;
-}
+.card-card {
+  min-height: 600px;
+}  
+
 .otherCard{
-  background-color: slateblue;
-  width: 100%;
-  color: crimson;
-  display: block;
+  padding: 10%;
 }
+.split-div{
+  margin-bottom: 5%;
+  margin-top: 5%;
+
+}
+
+.gitLogo { 
+  transition: all .2s ease-in-out; 
+  outline: 1px solid var(--darkgreen);
+}
+.gitLogo:hover { transform: scale(1.5); }

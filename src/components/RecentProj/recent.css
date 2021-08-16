@@ -26,13 +26,13 @@
    --line_length: clamp(4vw,50vw,70vw);
     /*--------------VW Sizes---------------------*/
   }
-  .carousel .carousel-item {
+  .car .car-time {
     width:50%;
   }
-  .card{
+  .cardCustom{
     width: 55%;
   }
-  .carousel{
+  .car{
     margin-bottom: 15%;
     padding: 10%;
     padding-bottom: 40%;
