@@ -1,31 +1,3 @@
-:root {
-  /* https://visme.co/blog/website-color-schemes/ #27 color scheme*/
-  /*--------------Colors---------------------*/
-  --darkgreen: #61892f;
-  --lightergreen: #86c232;
-  --dark: #222629;
-  --grey: #474b4f;
-  --light: #6b6e70;
-   /* extra*/
-  --white: #fff;
-  /*--------------Font Sizes---------------------*/
-  --extra-small: 12px;
-  --small: 14px;
-  --medium:17px;
-  --large:22px;
-  --extralarge:22px;
-
-   /*--------------VW Sizes---------------------*/
-   --extramall_vw: clamp(14px,1.5vw,30px);
-   --small_vw: clamp(15px,2vw,30px);
-   --bigger_small_vw: clamp(25px, 3.5vw, 45px);
-   --medium_vw: clamp(30px,4vw,60px);
-   --large_vw: clamp(45px,8vw,75px);
-
-   --decription_vw: clamp(40px, 50px, 60px);
-   --line_length: clamp(4vw,50vw,70vw);
-    /*--------------VW Sizes---------------------*/
-  }
 .card-card {
   min-height: 650px;
 }  
