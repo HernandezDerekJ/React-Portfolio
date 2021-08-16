@@ -1,3 +1,7 @@
+/*
+Loading Screen 
+https://codepen.io/Bilal1909/pen/pobgJae
+*/
 :root {
   /* https://visme.co/blog/website-color-schemes/ #27 color scheme*/
   /*--------------Colors---------------------*/
@@ -26,23 +30,9 @@
    --line_length: clamp(4vw,50vw,70vw);
     /*--------------VW Sizes---------------------*/
   }
-.card-card {
-  min-height: 650px;
-}  
-
-.otherCard{
-  padding: 10%;
-}
-.split-div{
-  margin-bottom: 5%;
-  margin-top: 5%;
-
-}
-.card-name{
-  overflow-wrap: break-word;
-}
-.gitLogo { 
-  transition: all .2s ease-in-out; 
-  outline: 1px solid var(--darkgreen);
-}
-.gitLogo:hover { transform: scale(1.5); }
+  .spacer{
+    min-height: 40rem;
+  }
+  @media screen and (min-width: 768) {
+    
+  }

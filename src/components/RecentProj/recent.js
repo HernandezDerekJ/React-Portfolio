@@ -3,7 +3,6 @@ import "materialize-css/dist/css/materialize.min.css";
 import M from 'materialize-css';
 import options from 'materialize-css';
 import { FaGithub } from "react-icons/fa";
-import { FaWindowClose } from  "react-icons/fa";
 import "./recent.css";
 
 
@@ -12,22 +11,20 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Carousel.init(elems, options);
 });
 function Recent() {
-
-
   return (    
   <div>
-    <div className='container'> 
-      <h1 className = "about_me_header">Recent Projects</h1>
+    <div className='container' id='other_project_header'> 
+      <h1 className = "recent_projects">Recent Projects</h1>
       <div className="divider"></div>
     </div>
     <div className="carousel car center-align">
       <a className="carousel-item car-time">
         <div className="card cardCustom">
           <div className="card-image waves-effect waves-green waves-light">
-            <img className="activator" src="./img/Win95.png" alt="logo"/>
+            <img className="activator img-card" src="./img/Win95.png" alt="logo"/>
           </div>
           <div className="card-content">
-            <span className="card-title activator">Windows 95</span>
+            <span className="card-title activator name-title">Windows 95</span>
             <p><a href="https://github.com/HernandezDerekJ/Windows-95"><FaGithub /></a></p>
           </div>
           <div className="card-reveal grey darken-1">
@@ -51,13 +48,13 @@ function Recent() {
           </div>
         </div>
       </a>
-      <a className="carousel-item car-time" >
+      <a className="carousel-item car-time " >
       <div className="card cardCustom ">
           <div className="card-image waves-effect waves-green waves-light">
-            <img className="activator" src="./img/screenshotProject1.png" alt="logo"/>
+            <img className="activator img-card" src="./img/screenshotProject1.png" alt="logo"/>
           </div>
           <div className="card-content">
-            <span className="card-title activator">This Day in Space</span>
+            <span className="card-title activator name-title ">This Day in Space</span>
             <p><a href="https://github.com/HernandezDerekJ/This-Day-In-Space"><FaGithub /></a></p>
           </div>
           <div className="card-reveal grey darken-1">
@@ -80,10 +77,10 @@ function Recent() {
       <a className="carousel-item car-time" href="#three!">
       <div className="card cardCustom">
         <div className="card-image waves-effect waves-green waves-light">
-              <img className="activator" src="./img/portPic.png" alt="logo"/>
+              <img className="activator img-card" src="./img/portPic.png" alt="logo"/>
             </div>
             <div className="card-content">
-              <span className="card-title activator">Portfolio React</span>
+              <span className="card-title activator name-title">Portfolio React</span>
               <p><a href="https://github.com/HernandezDerekJ/"><FaGithub /></a></p>
             </div>
             <div className="card-reveal grey darken-1">

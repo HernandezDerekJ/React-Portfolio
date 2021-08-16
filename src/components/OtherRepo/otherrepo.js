@@ -4,7 +4,6 @@ import M from 'materialize-css';
 import options from 'materialize-css';
 import { FaGithub } from "react-icons/fa";
 import "./otherrepo.css";
-import axios from "axios";
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -36,19 +35,18 @@ function MyComponent() {
       M.AutoInit()
     }, 500)
   }
-  console.log(repos);
     return (
       <div>
-        <div className='container'> 
+        <div className='container' id=''> 
             <h1 className = "about_me_header">Other Projects</h1>
             <div className="divider"></div>
         </div>
       <div className="carousel card-card container">
-      { repos.map(x => (
-          <a className=" carousel-item center">
+      {repos.map((x, i) => (
+          <div className=" carousel-item center"key={i}>
             <div className="card otherCard grey darken-3">
               <div className="card-content otherCard-title grey darken-3">
-                <span className="card-title grey darken-3">{x.name}</span> 
+                <span className="card-title card-name grey darken-3">{x.name}</span> 
                 <div className="divider split-div"></div>
                   {x.language ? (
                     <p className= " lang grey darken-3"> <span className='underline grey darken-3'>Language: </span>{x.language}</p>
@@ -60,7 +58,7 @@ function MyComponent() {
                       <a className="" target="_blank" href={x.html_url}>Git: <FaGithub/></a>
                   </div>
             </div>
-          </a>
+          </div>
       ))} 
     </div>
   </div>

@@ -8,7 +8,7 @@ import { FaFileAlt } from "react-icons/fa";
 function leftside_bar(props) {
   return (    
     
-  <div className = 'left_sidebar'>
+  <div className = 'left_sidebar hide-on-med-and-down'>
     <aside orientation = "left" className = "sidebar_links">
       <ul>
         <li>

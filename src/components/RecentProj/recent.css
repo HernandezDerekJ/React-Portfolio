@@ -27,20 +27,13 @@
     /*--------------VW Sizes---------------------*/
   }
   .car .car-time {
-    width:50%;
+    width: 25%;
   }
-  .cardCustom{
-    width: 55%;
+  .car-time{
   }
   .car{
-    margin-bottom: 15%;
-    padding: 10%;
+    z-index: auto;
     padding-bottom: 40%;
-    padding-top: 0%;
-    width: 100%;
-    margin-left: 5%;  
-    z-index: 1;
-
   }
   .about_me_header{
     color: var(--lightergreen);
@@ -67,4 +60,26 @@
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
+  }
+  .recent_projects{
+    color: var(--lightergreen);
+  }
+
+  /* Portrait */
+  @media screen and (max-width: 375px) {
+    .car .car-time{
+      width: 175px;
+    }
+    .card-content .name-title{
+      font-size: 16px;
+    }
+    .card-reveal .card-title{
+      font-size: 15px;
+    }
+    .card-reveal p{
+      font-size: 8px;
+    }
+    .card-reveal ul li{
+      font-size: 8px;
+    }
   }
