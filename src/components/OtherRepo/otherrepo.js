@@ -2,7 +2,6 @@ import React, {useEffect, useState, Component} from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from 'materialize-css';
 import options from 'materialize-css';
-import { FaGithub } from "react-icons/fa";
 import "./otherrepo.css";
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -59,7 +58,7 @@ function MyComponent() {
                   </div>
             </div>
           </div>
-      ))} 
+      ))}  
     </div>
   </div>
     );
