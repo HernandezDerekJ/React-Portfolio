@@ -49,7 +49,7 @@ function MyComponent() {
                 <span className="card-title card-name grey darken-3">{x.name}</span> 
                 <div className="divider split-div"></div>
                   {x.language ? (
-                    <p className= " lang grey darken-3"> <span className='underline grey darken-3'>Language: </span>{x.language}</p>
+                    <p className= "lang grey darken-3"> <span className='underline grey darken-3'>Language: </span>{x.language}</p>
                   ) : (
                     <p className= "lang grey darken-3"><span className='underline grey darken-3'>Language: </span> MIT</p>
                   )}

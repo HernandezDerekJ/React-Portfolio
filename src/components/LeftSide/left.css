@@ -48,6 +48,9 @@
   .sidebar_links ul{
     list-style-type: none;
   }
+  .material-tooltip{
+    background-color: transparent;
+  }
   @media screen and (min-width: 1024) {
  
   }
