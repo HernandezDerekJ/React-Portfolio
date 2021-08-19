@@ -12,10 +12,10 @@ function AboutMe() {
     <div >
       <p id = "about_me_first_summery"> Hello, I'm Derek Hernandez an aspiring Engineer/Developer. 
         My intrest in Engineering field has spanned from High School thought out College.
-        Even after College I continued to pursue my passion for coding by enrolling in an intensive Bootcamp. 
+        Even after College I continued to pursue my passion for coding by enrolling in an Intensive Bootcamp. 
       </p>
       <p id = "about_me_second_summery"> 
-      I graduated college from Texas State with a Bachelors in Computer Science and currrently 
+      I graduated college from Texas State with a Bachelors in Computer Science and am currently 
       entrolled in a Full-Stack Bootcamp at The University of Texas at Austin. 
       </p>
     </div>
@@ -29,7 +29,7 @@ function AboutMe() {
         <li>Python</li>
         <li>C++</li>
         <li>C</li>
-        <li>SQL</li>
+        <li>MERN</li>
 
       </ul>
     </div>

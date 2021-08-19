@@ -13,7 +13,7 @@ function Intro() {
     <div>
       <p>I enjoy learning new skills and building apon them. 
         Hence, I like to build things for computers</p>
-      <p id = 'WhoAmI_Summery'> I'm an Austin-based aspiring Engineer, that has a broad range acadeimic expereicne, ranging from Networks, Computer Security
+      <p id = 'WhoAmI_Summery'> I'm an Austin-based aspiring Engineer, that has a broad range of acadeimic experience, ranging from Networks, Computer-Security, Data Mining
         to Full-Stack Development. 
       </p>
     </div>
