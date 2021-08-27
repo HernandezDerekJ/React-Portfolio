@@ -45,14 +45,14 @@
      word-wrap: normal;
    }
    .section_four_contact_me a{
-    background-color:#6b6e70;
+    background-color:#222629;
      margin-top:2%;
      margin-left: 2%;
      color:var(--lightergreen);
      outline: 1px solid var(--lightergreen);
    }
    .section_four_contact_me a:hover{
-    opacity: .7;
+    opacity: .6;
     background-color: #fff;
   }
   @media screen and (min-width: 768) {

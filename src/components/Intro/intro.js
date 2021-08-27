@@ -17,8 +17,8 @@ function Intro() {
         to Full-Stack Development. 
       </p>
     </div>
-    <div id = "'contact_button'">
-      <a className="light-green-text btn"  href="mailto:hernandez.derek19@outlook.com" rel="noopener noreferrer">Contact</a>
+    <div className= "button_wrapper "id = "contact_button">
+      <a className="first_button light-green-text btn"  href="mailto:hernandez.derek19@outlook.com" rel="noopener noreferrer">Contact</a>
     </div>
 </section>
   

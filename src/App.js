@@ -25,7 +25,9 @@ function App() {
     {!done ? (
         <Load />
     ) : (
+      
         <Fade bottom>      
+        {/* The Web Design is credited to Brittany Chiang => brittanychiang.com */}
           <Right_bar/>
           <Left_bar/>
           <Header/>
