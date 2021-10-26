@@ -18,7 +18,7 @@ function leftside_bar(props) {
           <a href="https://github.com/HernandezDerekJ" target="_blank" className="tooltipped" data-position="top" data-tooltip="GitHub " rel="noopener noreferrer"><FaGithub /></a>
         </li>
         <li>
-          <a href="files/Derek_James_Hernandez_Resume.pdf" target="_blank" className="tooltipped" data-position="top" data-tooltip="Resume " rel="noopener noreferrer"> <FaFileAlt /></a>
+          <a href="files/Hernandez_Derek_James_Resume.pdf" target="_blank" className="tooltipped" data-position="top" data-tooltip="Resume " rel="noopener noreferrer"> <FaFileAlt /></a>
         </li>
       </ul>
     </aside>
